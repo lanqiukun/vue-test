@@ -1,5 +1,6 @@
 <template>
   <div>
+    <div>这里是ID为：{{ $route.params.id }}的文章</div>
     <button @click="to_article(12)">我要去看id为12的文章</button>
     <button @click="to_article(20)">我要去看id为20的文章</button>
     <button @click="to_about(20)">我要去看关于页面</button>
